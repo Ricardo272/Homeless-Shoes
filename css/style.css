@@ -1,9 +1,17 @@
 body {
-  background-color: blue;
+  width: 1440px;
+  background-color: #ceb992;
 }
-body h1 {
-  color: red;
+body #carouselExampleCaptions {
+  border: solid;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  margin: 0 auto;
+  background-color: #73937e;
+  padding: 0 2rem;
 }
-body p {
-  color: green;
+body #carouselExampleCaptions .imageCarousel {
+  width: 500px;
+  height: 500px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,11 +1,22 @@
 body {
-    background-color: blue;
+    width: 1440px;
+    background-color: #ceb992;
 
-    h1 {
-        color: red;
-    }
 
-    p {
-        color: green;
+    #carouselExampleCaptions {
+        border: solid;
+        width: fit-content;
+        display: flex;
+        margin: 0 auto;
+        background-color: #73937e;
+        padding: 0 2rem;
+
+
+
+        .imageCarousel {
+            width: 500px;
+            height: 500px;
+            
+        }
     }
 }
