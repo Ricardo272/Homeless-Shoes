@@ -1,0 +1,55 @@
+- 1 page d'accueil
+- Site de chaussures
+- Homme/Femme/Enfant
+- Barre nav homme femme enfant 
+- logo cart sur nav 
+- menu deroulant sur onglet homme femme enfant (avec 6 articles par personne)
+- bootstrap (toast)
+- HomelessShoesStore
+
+hommme: moccassin
+femme: escarpin
+enfant: botte caoutchouc
+
+pour les chaussures femme :
+
+idée : Pour l'achat d'une paire de chaussure, entrée dans un concours pour gagner une paire de sergio rossi noir d'une valeur de 410€
+
+
+
+Référence des chaussures et leur prix:
+                            prix initial            prix rabais     bon plans       Avis
+
+
+    HOMME
+
+Clark MALWOOD LACE Noir :   89.95€                  80.96€              -10%        9/10
+André Linos Marine :        89.00€                  53,40€              -40%        8.7/10
+André Pizzo Noir :          79.00€                  47.40€              -40%        8.8/10
+BullBoxer Marron :          99.95€                  69.97€              -30%        8.7/10
+Aldo Hanford Marron :       129.00€                 90.30€              -30%        9/10
+Timberland Noir :           160.00€                 152.00€             -5%         8.8/10
+
+
+    FEMME
+
+Aldo SERENITI beige :       99.99€                  89.99€              -10%        8.8/10
+Aldo Stessy2.0 Rose :       89.99€                  67.49€              -25%        9/10
+Betty Masette Vert :        89.99€                  80.99€              -10%        8.7/10
+BullBoxer 065529F2S :       59.95€                  53.96€              -10%        9/10
+Fericelli Milano :          119.99€                 83.99€              -30%        9/10
+Makupenda Blanc :           39.90€                  31.20€              -20%        9/10
+Sergio Rossi Noir :         683.00€                 410.00€             -40%        8.8/10
+
+
+    ENFANT    
+
+Aigle LOLLY POP F PT2 :    49.99€                   42.49€              -15%         8.7/10
+Be Only BOJARDIN Vert :    29.90€                   26.91€              -5%          8.8/10
+Be Only CORVETTE Jaune :   29.90€                   25.42€              -15%         9/10    
+Be Only TIMOUSS Gris :     29.99€                   20.99€              -30%         8.7/10
+Crocs HANDLE IT Rose :     39.99€                   36.00€              -10%         9/10
+HunterKids Classic Gloss : 59.99€                   53.99€              -10€         8.8/10
+Isotoner Bottes pluie :    29.99€                      /                  /          8.7/10
+Taika Jaune 2.0:           39.95€                   29.96€              -25%         9/10   
+Reima VIMPELI :            69.95€                   52.46€              -25%         9/10
