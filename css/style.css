@@ -48,6 +48,34 @@ body .modelchaussure .colonne button {
   margin-top: 1rem;
   border-radius: 5px;
 }
+body .CoupsDeCoeur {
+  text-align: center;
+  font-size: 4rem;
+  margin: 3rem;
+}
+body .PourNous {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  color: #212529;
+}
+body .PourNous span {
+  width: 160px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+  border: inset 0.5rem;
+  padding: 0.3rem;
+}
+body .PourNous span p {
+  margin: 0.3rem;
+}
+body .PourNous span img {
+  width: -moz-max-content;
+  width: max-content;
+}
 body h5 {
   text-transform: uppercase;
 }
