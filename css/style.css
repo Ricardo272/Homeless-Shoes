@@ -4,32 +4,42 @@ body {
 }
 body #carouselExampleCaptions {
   border: solid;
-  width: -moz-fit-content;
-  width: fit-content;
   display: flex;
   margin: 0 auto;
   background-color: #73937e;
   padding: 0 2rem;
+  width: 50%;
 }
 body #carouselExampleCaptions .imageCarousel {
-  width: 500px;
-  height: 500px;
-  padding-bottom: 2.5rem;
+  width: 25rem;
+  height: 25rem;
+  margin-bottom: 8rem;
+  transform: translate(35%, 2%);
 }
-body .Livraison,
-body .Reseaux {
+
+.top {
+  position: sticky;
+  bottom: 20px;
+  right: 2rem;
+  color: black;
+  font-size: 3rem;
+}
+
+.Livraison,
+.Reseaux {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 6rem;
 }
-body section article {
+
+section article {
   display: flex;
   flex-direction: column;
   align-items: center;
   cursor: pointer;
 }
-body .Reseaux .fa-brands {
+section .Reseaux .fa-brands {
   margin-left: 0.7rem;
   width: 1rem;
 }/*# sourceMappingURL=style.css.map */
