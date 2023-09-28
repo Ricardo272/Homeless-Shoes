@@ -62,6 +62,18 @@ header {
     }
 
 }
+.pagepanier {
+    display: flex;
+    .gauche {
+        float: left;
+        border-right: solid brown 2px;
+        margin: 0 auto auto auto;
+    }
+    .droite {
+        float: right;
+        margin-left: 2rem;
+    }
+}
 
 
 

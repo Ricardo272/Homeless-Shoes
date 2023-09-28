@@ -56,6 +56,19 @@ header input {
   height: 3rem;
 }
 
+.pagepanier {
+  display: flex;
+}
+.pagepanier .gauche {
+  float: left;
+  border-right: solid brown 2px;
+  margin: 0 auto auto auto;
+}
+.pagepanier .droite {
+  float: right;
+  margin-left: 2rem;
+}
+
 .top {
   position: sticky;
   bottom: 2rem;
