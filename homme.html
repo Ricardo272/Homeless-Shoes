@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Homeless Shoes</title>
+</head>
+
+<body>
+    <header><nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <!-- Logo cliquable qui renvoi sur la page d'acceuil -->
+          <a class="navbar-brand " href="../Homeless-Shoes/index.html"><img id="Logo" src="assets/Logo/Across_the_street.png" alt="LOGO Homeless-Shoes-Store"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      
+              <!-- Dropdowns -->
+            <ul class="navbar-nav">
+      
+              <!-- Dropdown Homme -->
+              <li class="nav-item dropdown pr-5">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Homme
+              </a>
+              <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Chaussures de costume</a></li>
+                  <li><a class="dropdown-item" href="#">Sneakers</a></li>
+                  <li><a class="dropdown-item" href="#">Mocassin</a></li>
+                  <li><a class="dropdown-item" href="#">Escarpins</a></li>
+                  <li><a class="dropdown-item" href="#">Sport</a></li>
+                  <li><a class="dropdown-item" href="#">Bottes</a></li>
+                </ul>
+              </li>
+                  <!-- Dropdown Femme -->
+                  <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Femme
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Sandales</a></li>
+                      <li><a class="dropdown-item" href="#">Sneakers</a></li>
+                      <li><a class="dropdown-item" href="#">Sport</a></li>
+                      <li><a class="dropdown-item" href="#">Escarpins</a></li>
+                      <li><a class="dropdown-item" href="#">Ballerine</a></li>
+                      <li><a class="dropdown-item" href="#">Bottines</a></li>
+                    </ul>
+                  </li>
+                  <!-- Dropdown enfant -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Enfant
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Bottes en caoutchou</a></li>
+                  <li><a class="dropdown-item" href="#">Crocks</a></li>
+                  <li><a class="dropdown-item" href="#">Sneakers</a></li>
+                  <li><a class="dropdown-item" href="#">Sport</a></li>
+                  <li><a class="dropdown-item" href="#">Sandales</a></li>
+                  <li><a class="dropdown-item" href="#">Chaussons</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- Searchbar -->
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+              <button class="btn btn-outline-success text-center" id="searchbtn" type="submit">Rechercher</button>
+      <!-- LE PANIER -->
+      <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+          <button id="panier" class="btn btn-light border border-dark pt-4"><i class="bi bi-basket"></i><br><p class="txtmonpanier text-center">Mon panier</p></button>
+      </div>
+      
+          </div>
+        </div>
+      </nav>
+      </header>
+      <!-- Aside menu -->
+      <div class="divAsideMen">
+        <aside class="AsideMen">
+          <span class="homme">Homme</span>
+            <ul>
+                  <li class=""><a href="#">Chaussures de costume</a></li>
+                  <li class=""><a href="#">Sneakers</a></li>
+                  <li class=""><a href="#">Mocassins</a></li>
+                  <li class=""><a href="#">Escarpins</a></li>
+                  <li class=""><a href="#">Sport</a></li>
+                  <li class=""><a href="#">Bottes</a></li>
+                  <li class=""><a href="#">Baskets</a></li>
+                  <li class=""><a href="#">Boots</a></li>
+                  <li class=""><a href="#">Chaussons</a></li>
+                  <li class=""><a href="#">Espadrilles</a></li>
+                  <li class=""><a href="#">Tongs</a></li>
+                  <li class=""><a href="#">Sandales</a></li>
+                  <li class=""><a href="#">Sabots</a></li>
+            </ul>
+        </aside>
+      </div>
+      <!-- Chaussures Cards -->
+      <div class="row row-cols-3  m-2 p-2 ">
+      <div class="card w-25 ">
+        <img src="/assets/Shoes/homme/Aldo_Hanford_Marron-removebg-preview.png" class="card-img-top" alt="Image Aldo Hanford Homme">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img src="/assets/Shoes/homme/Aldo_Hanford_Marron-removebg-preview.png" class="card-img-top" alt="Image Aldo Hanford Homme">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img src="/assets/Shoes/homme/Aldo_Hanford_Marron-removebg-preview.png" class="card-img-top" alt="Image Aldo Hanford Homme">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img src="/assets/Shoes/homme/Aldo_Hanford_Marron-removebg-preview.png" class="card-img-top" alt="Image Aldo Hanford Homme">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img src="/assets/Shoes/homme/Aldo_Hanford_Marron-removebg-preview.png" class="card-img-top" alt="Image Aldo Hanford Homme">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img src="/assets/Shoes/homme/Aldo_Hanford_Marron-removebg-preview.png" class="card-img-top" alt="Image Aldo Hanford Homme">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card w-25">
+        <img src="/assets/Shoes/homme/Aldo_Hanford_Marron-removebg-preview.png" class="card-img-top" alt="Image Aldo Hanford Homme">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+          <!-- Bouton Scroll To Top -->
+
+          <a href="#" class="top"><i class="bi bi-arrow-up-square-fill"></i></a>
+
+
+          <!-- Footer -->
+          <footer>
+              <section class="Livraison">
+                  <article>
+                      <i class="fa-solid fa-arrow-right"></i>
+                      <p>Livraison Gratuite En 4 Jours Garantis</p>
+                  </article>
+                  <article>
+                      <i class="fa-solid fa-arrow-left"></i>
+                      <p>Retour Gratuit  Sous 30 jours</p>
+                  </article>
+                  <article>
+                      <i class="fa-solid fa-arrow-trend-down"></i>
+                      <p>La Garantie Du Prix Le Plus Bas</p>
+                  </article>
+                  <article>
+                      <i class="fa-solid fa-phone"></i>
+                      <p>Besoin d'aide</p>
+                  </article>
+              </section>
+      
+              <section class="footerNav">
+            <article>
+              <h2>Univers</h2>
+              <ul>
+                <li>Marques</li>
+                  <li>Les escarpins de A à Z</li>
+                  <li>Nouveautés</li>
+                  <li>Bon Plans</li>
+                <li>Sacs</li>
+                  <li>Grandes tailles</li>
+                  <li>Tendances</li>
+              </ul>
+            </article>
+            <article>
+              <h2>Aide</h2>
+              <ul>
+                <li>Contact</li>
+                  <li>F.A.Q</li>
+                  <li>Conditions Générales de Vente</li>
+                  <li>Mentions Legales</li>
+                  <li>*Conditions des offres en cours</li>
+                  <li>Politique de protection des données</li>
+              </ul>
+            </article>
+            <article>
+              <h2>Services</h2>
+              <ul>
+                <li>Marketplace</li>
+                  <li>Revente des produits H.L.S</li>
+                          <li>Livraison</li>
+                          <li>Liste des magasins ouverts</li>
+              </ul>
+            </article>
+                  <article>
+              <h2>HomeLessShoes</h2>
+              <ul>
+                <li>Qui est H.L.S</li>
+                  <li>Rejoignez-nous</li>
+                  <li>Espace Presse</li>
+                  <li>Espace clients professionnels</li>
+                          <li>Offrez des cartes cadeaux de 30€ à 150€</li>
+              </ul>
+            </article>
+          </section>
+      
+              <section class="Reseaux">
+                  <article>
+                      <p>Suivez-nous sur
+                          <i class="fa-brands fa-facebook-f"></i>
+                          <i class="fa-brands fa-twitter"></i>
+                          <i class="fa-brands fa-instagram"></i>
+                      </p>
+                  </article>
+              </section>
+          </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
