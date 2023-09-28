@@ -13,9 +13,74 @@
 </head>
 
 <body>
-    <h1>Ceci est un h1</h1>
-    <p>Ceci est un p</p>
-
+    <header><nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <!-- Logo cliquable qui renvoi sur la page d'acceuil -->
+          <a class="navbar-brand " href="../Homeless-Shoes/index.html"><img id="Logo" src="assets/images/Across_the_street.png" alt="LOGO Homeless-Shoes-Store"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      
+              <!-- Dropdowns -->
+            <ul class="navbar-nav">
+      
+              <!-- Dropdown Homme -->
+              <li class="nav-item dropdown pr-5">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Homme
+              </a>
+              <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Chaussures de costume</a></li>
+                  <li><a class="dropdown-item" href="#">Sneakers</a></li>
+                  <li><a class="dropdown-item" href="#">Mocassin</a></li>
+                  <li><a class="dropdown-item" href="#">Escarpins</a></li>
+                  <li><a class="dropdown-item" href="#">Sport</a></li>
+                  <li><a class="dropdown-item" href="#">Bottes</a></li>
+                </ul>
+              </li>
+                  <!-- Dropdown Femme -->
+                  <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Femme
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Sandales</a></li>
+                      <li><a class="dropdown-item" href="#">Sneakers</a></li>
+                      <li><a class="dropdown-item" href="#">Sport</a></li>
+                      <li><a class="dropdown-item" href="#">Escarpins</a></li>
+                      <li><a class="dropdown-item" href="#">Ballerine</a></li>
+                      <li><a class="dropdown-item" href="#">Bottines</a></li>
+                    </ul>
+                  </li>
+                  <!-- Dropdown enfant -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Enfant
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Bottes en caoutchou</a></li>
+                  <li><a class="dropdown-item" href="#">Crocks</a></li>
+                  <li><a class="dropdown-item" href="#">Sneakers</a></li>
+                  <li><a class="dropdown-item" href="#">Sport</a></li>
+                  <li><a class="dropdown-item" href="#">Sandales</a></li>
+                  <li><a class="dropdown-item" href="#">Chaussons</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- Searchbar -->
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+              <button class="btn btn-outline-success text-center" id="searchbtn" type="submit">Search</button>
+      <!-- LE PANIER -->
+      <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+          <button id="panier" class="btn btn-light border border-dark pt-4"><i class="bi bi-basket"></i><br><p class="txtmonpanier text-center">Mon panier</p></button>
+      </div>
+      
+          </div>
+        </div>
+      </nav>
+      </header>
 
 
 
