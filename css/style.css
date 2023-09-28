@@ -56,6 +56,38 @@ header input {
   height: 3rem;
 }
 
+.divAsideMen {
+  background-color: white;
+  position: relative;
+  width: 25%;
+  margin: 5rem;
+}
+.divAsideMen ul {
+  padding-left: 0;
+}
+.divAsideMen .AsideMen .homme {
+  display: table;
+  margin: 1rem auto;
+  font-size: 2rem;
+}
+.divAsideMen .AsideMen a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  padding: 1rem 1.9em;
+}
+.divAsideMen .AsideMen li {
+  font-weight: bold;
+}
+.divAsideMen .AsideMen li :hover {
+  background-color: #01acba;
+}
+
+.card {
+  margin: 1rem;
+}
+
 .top {
   position: sticky;
   bottom: 2rem;
@@ -66,13 +98,6 @@ header input {
 }
 .top :hover {
   color: rgb(0, 0, 0);
-}
-
-aside a {
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-  margin-top: 5rem;
 }
 
 .Livraison,
