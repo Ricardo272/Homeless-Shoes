@@ -25,7 +25,8 @@ body #carouselExampleCaptions .imageCarousel {
   font-size: 3rem;
 }
 
-.Livraison, .Reseaux {
+.Livraison,
+.Reseaux {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -38,8 +39,7 @@ section article {
   align-items: center;
   cursor: pointer;
 }
-
-.Reseaux .fa-brands {
+section .Reseaux .fa-brands {
   margin-left: 0.7rem;
   width: 1rem;
 }/*# sourceMappingURL=style.css.map */
