@@ -1,0 +1,68 @@
+body div {
+  border: solid;
+}
+body div h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+body div p {
+  color: blue;
+}
+
+body {
+  width: 1440px;
+  background-color: #ceb992;
+}
+body .BigDiv {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-items: center;
+  flex-direction: row;
+}
+body .BigDiv .PhotosArticles {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+body .BigDiv .PhotosArticles .PhotosColone {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30%;
+}
+body .BigDiv .PhotosArticles .PhotosColone img {
+  background-color: #471327;
+  margin: 2rem;
+  border: inset 0.5rem;
+  padding: 0.5rem;
+}
+body .BigDiv .PhotosArticles .PremierPlan {
+  background-color: #471327;
+  margin: 2rem;
+  border: inset 0.7rem;
+  padding: 0.5rem;
+}
+body .BigDiv .Article {
+  display: flex;
+  flex-direction: column;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body .BigDiv .Article .Nom {
+  text-transform: uppercase;
+}
+body .BigDiv .Article .Prix {
+  color: red;
+}
+body .BigDiv .Article .Prix .Ancien-Prix {
+  color: aqua;
+}
+body .BigDiv .Article .Prix .Nouveau-Prix {
+  color: black;
+}
+body .BigDiv .Article .Detail {
+  color: blue;
+}/*# sourceMappingURL=ClarksMalwoodLaceNoir.css.map */
