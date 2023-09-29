@@ -9,6 +9,19 @@ body {
     background-color: #ceb992;
     font-family: ACME;
 
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h3 {
+        text-transform: uppercase;
+        margin: .5rem;
+        font-size: 5rem;
+        -webkit-text-stroke: medium;
+        color: #212529;
+    }
 
     // Carousselle D'images
 
@@ -32,7 +45,7 @@ body {
     .modelchaussure {
         display: flex;
         flex-wrap: nowrap;
-        margin: 3rem 1rem;
+        margin: 1rem 1rem;
         background-color: #73937e;
         padding: 2rem;
         justify-content: space-between;
@@ -55,7 +68,8 @@ body {
                 border: outset 0.5rem;
                 margin-top: 1rem;
                 border-radius: 5px;
-
+                background-color: #73937e;
+                color: #212529;
             }
         }
     }
@@ -63,7 +77,9 @@ body {
     .CoupsDeCoeur {
         text-align: center;
         font-size: 4rem;
-        margin: 3rem;
+        margin: 2rem;
+        -webkit-text-stroke: medium;
+
     }
 
     .PourNous {
@@ -78,9 +94,10 @@ body {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 3rem;
+            margin: 2rem;
             border: inset 0.5rem;
             padding: 0.3rem;
+            background-color: #73937e;
 
             p {
                 margin: 0.3rem;
@@ -95,6 +112,12 @@ body {
 
     h5 {
         text-transform: uppercase;
+        color: #212529;
+
+    }
+
+    .Detailcarousel {
+        color: #212529;
     }
 
     .container {
@@ -178,7 +201,137 @@ body {
         }
     }
 
+    .ArticlesMix {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
 
+        .MixHomme {
+            display: flex;
+            flex-direction: column;
+            margin: 2rem;
+            border: inset 0.5rem;
+            border-radius: 0.5rem;
+            background-color: #471323;
+
+            img {
+                width: 20rem;
+            }
+
+            h1 {
+                margin-left: 1rem;
+                color: #ceb992
+            }
+
+            button {
+                color: #212529;
+                margin: 0.5rem;
+                background-color: #ceb992;
+                border-radius: 3px;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                margin-left: 1rem;
+                color: #ceb992;
+
+                .Faux {
+                    font-size: x-large;
+                    text-decoration: line-through 2px;
+                }
+
+                p {
+                    font-size: xx-large;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .MixFemme {
+            display: flex;
+            flex-direction: column;
+            margin: 2rem;
+            border: inset 0.5rem;
+            border-radius: 0.5rem;
+            background-color: #5b2e48;
+
+            img {
+                width: 20rem;
+            }
+
+            h1 {
+                margin-left: 1rem;
+                color: #ceb992;
+            }
+
+            button {
+                color: #212529;
+                margin: 0.5rem;
+                background-color: #ceb992;
+                border-radius: 3px;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                margin-left: 1rem;
+                color: #ceb992;
+
+                .Faux {
+                    font-size: x-large;
+                    text-decoration: line-through 2px;
+                }
+
+                p {
+                    font-size: xx-large;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .MixEnfants {
+            display: flex;
+            flex-direction: column;
+            margin: 2rem;
+            border: inset 0.5rem;
+            border-radius: 0.5rem;
+            background-color: #585563;
+
+            img {
+                width: 20rem;
+            }
+
+            h1 {
+                margin-left: 1rem;
+                color: #ceb992;
+            }
+
+            button {
+                color: #212529;
+                margin: 0.5rem;
+                background-color: #ceb992;
+                border-radius: 3px;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                margin-left: 1rem;
+                color: #ceb992;
+
+                .Faux {
+                    font-size: x-large;
+                    text-decoration: line-through 2px;
+                }
+
+                p {
+                    font-size: xx-large;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
 }
 
 .pagepanier {
