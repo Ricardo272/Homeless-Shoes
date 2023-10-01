@@ -24,6 +24,16 @@ body {
     }
     
 
+    header {
+        #Logo {
+            border-radius: 80%;
+            width: 9rem;
+            height: 9rem;
+            form{
+                height: 3.5;
+            }
+        }
+    }
     // Carousselle D'images
 
     #carouselExampleCaptions {
@@ -342,14 +352,35 @@ body {
     display: flex;
 
     .gauche {
+        
+        width: 50%;
         float: left;
-        border-right: solid brown 2px;
+        border: solid black 2px;
         margin: 0 auto auto auto;
+        background-color: #73937e;
+        .boutonshopping {
+            background-color: #73937e;
+            color: #fff;
+            border-radius: 25%;
+            align-items: center;
+            width: 10rem;
+            height: 3.5rem;
+        }
     }
 
     .droite {
         float: right;
         margin-left: 2rem;
+width: 50%;
+    
+        button{
+            background-color: #73937e;
+            color: #fff;
+            border-radius: 25%;
+            align-items: center;
+            width: 10rem;
+            height: 3.5rem;
+        }
     }
 }
 
