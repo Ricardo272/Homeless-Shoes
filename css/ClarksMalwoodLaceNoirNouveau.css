@@ -1,0 +1,246 @@
+@font-face {
+  font-family: ACME;
+  src: url(../assets/police/Acme/Acme-Regular.ttf) format(TrueType);
+}
+body {
+  width: 1440px;
+  font-family: ACME;
+  background-color: #73937e;
+}
+body section {
+  background-color: #471327;
+  padding: 1rem 0;
+  width: 80%;
+  margin: 0 auto;
+  border: inset 1rem;
+}
+body .container {
+  max-width: 1044px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body .carousel {
+  display: block;
+  text-align: left;
+  position: relative;
+  margin-bottom: 22px;
+}
+body .carousel > input {
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+body .carousel > input:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -500%;
+}
+body .carousel > input:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -400%;
+}
+body .carousel > input:nth-of-type(4):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -300%;
+}
+body .carousel > input:nth-of-type(3):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -200%;
+}
+body .carousel > input:nth-of-type(2):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: -100%;
+}
+body .carousel > input:nth-of-type(1):checked ~ .carousel__slides .carousel__slide:first-of-type {
+  margin-left: 0%;
+}
+body .carousel > input:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+body .carousel > input:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+body .carousel > input:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+body .carousel > input:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+body .carousel > input:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+body .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) {
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+}
+body .carousel__slides {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  display: flex;
+}
+body .carousel__slide {
+  position: relative;
+  display: block;
+  flex: 1 0 100%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: all 300ms ease-out;
+  vertical-align: top;
+  box-sizing: border-box;
+  white-space: normal;
+}
+body .carousel__slide figure {
+  display: flex;
+  margin: 0;
+}
+body .carousel__slide div {
+  position: relative;
+  width: 100%;
+}
+body .carousel__slide div:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 66.6666666667%;
+}
+body .carousel__slide div > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+body .carousel__slide img {
+  display: block;
+  flex: 1 1 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .carousel__slide .credit {
+  margin-top: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  display: block;
+}
+body .carousel__slide.scrollable {
+  overflow-y: scroll;
+}
+body .carousel__thumbnails {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin: 0 -10px;
+}
+.carousel__slides + body .carousel__thumbnails {
+  margin-top: 20px;
+}
+body .carousel__thumbnails li {
+  flex: 1 1 auto;
+  max-width: calc(16.6666666667% - 20px);
+  margin: 0 10px;
+  transition: all 300ms ease-in-out;
+}
+body .carousel__thumbnails label {
+  display: block;
+  position: relative;
+}
+body .carousel__thumbnails label:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 100%;
+}
+body .carousel__thumbnails label > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+body .carousel__thumbnails label:hover, body .carousel__thumbnails label:focus {
+  cursor: pointer;
+}
+body .carousel__thumbnails label:hover img, body .carousel__thumbnails label:focus img {
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
+  transition: all 300ms ease-in-out;
+}
+body .carousel__thumbnails img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .flex {
+  background-color: #ceb992;
+  display: flex;
+  border: inset 1rem;
+  margin-top: 2rem;
+}
+body .flex .Article {
+  display: flex;
+  flex-direction: column;
+}
+body .flex .Article .dropdownTaille .btn {
+  font-size: 32px;
+}
+body .flex .Article .dropdownTaille .Nom {
+  text-transform: uppercase;
+  font-size: 48px;
+  width: -moz-max-content;
+  width: max-content;
+  color: #212529;
+}
+body .flex .Article .dropdownTaille .Prix {
+  color: red;
+}
+body .flex .Article .dropdownTaille .Prix .Ancien-Prix {
+  color: #212529;
+  font-size: 48px;
+  text-decoration: line-through;
+}
+body .flex .Article .dropdownTaille .Prix .Nouveau-Prix {
+  color: #212529;
+  font-size: 50px;
+}
+body .flex .Article .dropdownTaille .Detail {
+  color: #212529;
+  font-size: 32px;
+}
+body .flex .Article .dropdownTaille .Saut-de-ligne-inset {
+  width: 100%;
+  height: 1rem;
+  background-color: #471327;
+}
+body .flex .Article .description {
+  display: flex;
+  flex-direction: column;
+}
+body .flex .Article .description .Saut-de-ligne-inset {
+  width: 100%;
+  height: 1rem;
+  background-color: #471327;
+}
+body .flex .Article .description span h6 {
+  font-size: 48px;
+  margin: 39.84px;
+  text-transform: uppercase;
+  color: #212529;
+}
+body .flex .Article .description span p {
+  font-size: 32px;
+  color: #212529;
+}
+body .flex .Article .description span ul {
+  font-size: 32px;
+  color: #212529;
+}/*# sourceMappingURL=ClarksMalwoodLaceNoirNouveau.css.map */
