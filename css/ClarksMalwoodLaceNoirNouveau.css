@@ -7,25 +7,29 @@ body {
   font-family: ACME;
   background-color: #73937e;
 }
-body section {
+
+section {
   background-color: #471327;
   padding: 1rem 0;
-  width: 80%;
+  width: 65%;
   margin: 0 auto;
   border: inset 1rem;
+  border-radius: 2rem;
 }
-body .container {
+
+.container {
   max-width: 1044px;
   margin: 0 auto;
   padding: 0 20px;
 }
-body .carousel {
+
+.carousel {
   display: block;
   text-align: left;
   position: relative;
   margin-bottom: 22px;
 }
-body .carousel > input {
+.carousel > input {
   clip: rect(1px, 1px, 1px, 1px);
   -webkit-clip-path: inset(50%);
           clip-path: inset(50%);
@@ -36,43 +40,44 @@ body .carousel > input {
   padding: 0;
   position: absolute;
 }
-body .carousel > input:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type {
+.carousel > input:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type {
   margin-left: -500%;
 }
-body .carousel > input:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type {
+.carousel > input:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type {
   margin-left: -400%;
 }
-body .carousel > input:nth-of-type(4):checked ~ .carousel__slides .carousel__slide:first-of-type {
+.carousel > input:nth-of-type(4):checked ~ .carousel__slides .carousel__slide:first-of-type {
   margin-left: -300%;
 }
-body .carousel > input:nth-of-type(3):checked ~ .carousel__slides .carousel__slide:first-of-type {
+.carousel > input:nth-of-type(3):checked ~ .carousel__slides .carousel__slide:first-of-type {
   margin-left: -200%;
 }
-body .carousel > input:nth-of-type(2):checked ~ .carousel__slides .carousel__slide:first-of-type {
+.carousel > input:nth-of-type(2):checked ~ .carousel__slides .carousel__slide:first-of-type {
   margin-left: -100%;
 }
-body .carousel > input:nth-of-type(1):checked ~ .carousel__slides .carousel__slide:first-of-type {
+.carousel > input:nth-of-type(1):checked ~ .carousel__slides .carousel__slide:first-of-type {
   margin-left: 0%;
 }
-body .carousel > input:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) {
+.carousel > input:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) {
   box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
 }
-body .carousel > input:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) {
+.carousel > input:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) {
   box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
 }
-body .carousel > input:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3) {
+.carousel > input:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3) {
   box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
 }
-body .carousel > input:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) {
+.carousel > input:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) {
   box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
 }
-body .carousel > input:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) {
+.carousel > input:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) {
   box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
 }
-body .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) {
+.carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) {
   box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
 }
-body .carousel__slides {
+
+.carousel__slides {
   position: relative;
   z-index: 1;
   padding: 0;
@@ -82,7 +87,8 @@ body .carousel__slides {
   box-sizing: border-box;
   display: flex;
 }
-body .carousel__slide {
+
+.carousel__slide {
   position: relative;
   display: block;
   flex: 1 0 100%;
@@ -94,21 +100,21 @@ body .carousel__slide {
   box-sizing: border-box;
   white-space: normal;
 }
-body .carousel__slide figure {
+.carousel__slide figure {
   display: flex;
   margin: 0;
 }
-body .carousel__slide div {
+.carousel__slide div {
   position: relative;
   width: 100%;
 }
-body .carousel__slide div:before {
+.carousel__slide div:before {
   display: block;
   content: "";
   width: 100%;
   padding-top: 66.6666666667%;
 }
-body .carousel__slide div > img {
+.carousel__slide div > img {
   position: absolute;
   top: 0;
   left: 0;
@@ -117,47 +123,48 @@ body .carousel__slide div > img {
   width: 100%;
   height: 100%;
 }
-body .carousel__slide img {
+.carousel__slide img {
   display: block;
   flex: 1 1 auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
-body .carousel__slide .credit {
+.carousel__slide .credit {
   margin-top: 1rem;
   color: rgba(0, 0, 0, 0.5);
   display: block;
 }
-body .carousel__slide.scrollable {
+.carousel__slide.scrollable {
   overflow-y: scroll;
 }
-body .carousel__thumbnails {
+
+.carousel__thumbnails {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   margin: 0 -10px;
 }
-.carousel__slides + body .carousel__thumbnails {
+.carousel__slides + .carousel__thumbnails {
   margin-top: 20px;
 }
-body .carousel__thumbnails li {
+.carousel__thumbnails li {
   flex: 1 1 auto;
   max-width: calc(16.6666666667% - 20px);
   margin: 0 10px;
   transition: all 300ms ease-in-out;
 }
-body .carousel__thumbnails label {
+.carousel__thumbnails label {
   display: block;
   position: relative;
 }
-body .carousel__thumbnails label:before {
+.carousel__thumbnails label:before {
   display: block;
   content: "";
   width: 100%;
   padding-top: 100%;
 }
-body .carousel__thumbnails label > img {
+.carousel__thumbnails label > img {
   position: absolute;
   top: 0;
   left: 0;
@@ -166,81 +173,116 @@ body .carousel__thumbnails label > img {
   width: 100%;
   height: 100%;
 }
-body .carousel__thumbnails label:hover, body .carousel__thumbnails label:focus {
+.carousel__thumbnails label:hover, .carousel__thumbnails label:focus {
   cursor: pointer;
 }
-body .carousel__thumbnails label:hover img, body .carousel__thumbnails label:focus img {
+.carousel__thumbnails label:hover img, .carousel__thumbnails label:focus img {
   box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
   transition: all 300ms ease-in-out;
 }
-body .carousel__thumbnails img {
+.carousel__thumbnails img {
   display: block;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-body .flex {
+
+.flex {
   background-color: #ceb992;
   display: flex;
   border: inset 1rem;
   margin-top: 2rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 2rem;
 }
-body .flex .Article {
+.flex .Article {
+  background-color: #73937e;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  border: inset 0.5rem;
+  border-radius: 2rem;
+  margin: 2rem;
 }
-body .flex .Article .dropdownTaille .btn {
+.flex .Article .dropdownTaille .btn {
   font-size: 32px;
+  border: inset 0.5rem;
+  border-radius: 1rem;
+  background-color: #6c757d;
+  margin: 1rem;
+  color: #212529;
 }
-body .flex .Article .dropdownTaille .Nom {
+.flex .Article .dropdownTaille .dropdown-menu .dropdown-item {
+  font-size: 32px;
+  border: inset 0.5rem;
+  border-radius: 1rem;
+  background-color: #6c757d;
+  margin: 1rem;
+}
+.flex .Article .AddPanier {
+  font-size: 32px;
+  border: inset 0.5rem;
+  border-radius: 1rem;
+  background-color: #6c757d;
+  margin: 1rem;
+  color: #212529;
+}
+.flex .Article .Nom {
   text-transform: uppercase;
   font-size: 48px;
   width: -moz-max-content;
   width: max-content;
   color: #212529;
 }
-body .flex .Article .dropdownTaille .Prix {
+.flex .Article .Prix {
   color: red;
 }
-body .flex .Article .dropdownTaille .Prix .Ancien-Prix {
+.flex .Article .Prix .Ancien-Prix {
   color: #212529;
   font-size: 48px;
   text-decoration: line-through;
 }
-body .flex .Article .dropdownTaille .Prix .Nouveau-Prix {
+.flex .Article .Prix .Nouveau-Prix {
   color: #212529;
   font-size: 50px;
 }
-body .flex .Article .dropdownTaille .Detail {
+.flex .Article .Detail {
   color: #212529;
   font-size: 32px;
 }
-body .flex .Article .dropdownTaille .Saut-de-ligne-inset {
+.flex .Article .Saut-de-ligne-inset {
   width: 100%;
   height: 1rem;
   background-color: #471327;
 }
-body .flex .Article .description {
+.flex .description {
   display: flex;
   flex-direction: column;
+  margin: 2rem;
+  padding: 1rem;
+  border: inset 0.5rem;
+  border-radius: 2rem;
+  background-color: #73937e;
 }
-body .flex .Article .description .Saut-de-ligne-inset {
+.flex .description .Saut-de-ligne-inset {
   width: 100%;
   height: 1rem;
   background-color: #471327;
 }
-body .flex .Article .description span h6 {
+.flex .description span .Maj {
   font-size: 48px;
-  margin: 39.84px;
   text-transform: uppercase;
   color: #212529;
+  margin-bottom: 3rem;
 }
-body .flex .Article .description span p {
+.flex .description span p {
   font-size: 32px;
   color: #212529;
 }
-body .flex .Article .description span ul {
+.flex .description span ul {
   font-size: 32px;
   color: #212529;
 }/*# sourceMappingURL=ClarksMalwoodLaceNoirNouveau.css.map */
