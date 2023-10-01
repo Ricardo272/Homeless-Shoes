@@ -7,6 +7,14 @@ body {
   background-color: #ceb992;
   font-family: ACME;
 }
+body header #Logo {
+  border-radius: 80%;
+  width: 9rem;
+  height: 9rem;
+}
+body header #Logo form {
+  height: 3.5;
+}
 body #carouselExampleCaptions {
   border: inset 2rem;
   border-radius: 1rem;
@@ -119,13 +127,32 @@ body .container div:hover .content {
   display: flex;
 }
 .pagepanier .gauche {
+  width: 50%;
   float: left;
-  border-right: solid brown 2px;
+  border: solid black 2px;
   margin: 0 auto auto auto;
+  background-color: #73937e;
+}
+.pagepanier .gauche .boutonshopping {
+  background-color: #73937e;
+  color: #fff;
+  border-radius: 25%;
+  align-items: center;
+  width: 10rem;
+  height: 3.5rem;
 }
 .pagepanier .droite {
   float: right;
   margin-left: 2rem;
+  width: 50%;
+}
+.pagepanier .droite button {
+  background-color: #73937e;
+  color: #fff;
+  border-radius: 25%;
+  align-items: center;
+  width: 10rem;
+  height: 3.5rem;
 }
 
 .top {

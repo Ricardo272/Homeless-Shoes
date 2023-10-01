@@ -95,71 +95,148 @@
             </div>
         </nav>
     </header>
-
+    <!-- Partie gauche page panier -->
     <div class="pagepanier">
-    <div class="gauche">
-        <div class="recap">
-            <h1 class="text-center">Récapitulatif de ma commande</h1>
+        <div class="gauche pb-5">
+            <div class="recap">
+                <h1 class="text-center">Récapitulatif de ma commande</h1>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="assets\Shoes\homme\Clarks_Malwood_Lace-removebg-preview.png" class="img-fluid rounded-start" alt="Mocassin Clark">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Clark MALWOOD LACE Noir</h5>
+                          <p class="card-text">Prix <br> <span class="text-decoration-line-through">89,95€</span> 80,96</p>
+                          <p class="card-text"><label for="inputState" class="form-label">Quantité commandée</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option></select>
+                          <p class="card-text"><label for="inputState" class="form-label">Tailles disponibles</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>39</option>
+                                <option>40</option>
+                                <option>41</option>
+                                <option>42</option>
+                                <option>43</option>
+                                <option>45</option>
+                                <option>46</option>
+                                <option>47</option>
+                            </select></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="indicationcommande border border-dark text-center">Pour passer commande, indiquez-nous vos coordonnées ainsi que le type de livraison souhaité ! <i class="bi bi-arrow-right-square"></i></p>
+            </div>
+
+            <a href="index.html"></a><div class="boutonshopping"><button>Continuer mes achats</button></div>
+        </div></a>
+
+        <!-- Partie droite page panier -->
+        <div class="droite">
+
+            <div class="livriason">
+                <h1>Livraison</h1>
+                <h2>Livraison à domicile</h2>
+
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Nom</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Prénom</label>
+                        <input type="text" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Téléphone</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Adresse</label>
+                        <input type="text" class="form-control" id="inputAddress">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Complément d'adresse</label>
+                        <input type="text" class="form-control" id="inputAddress2">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">Ville</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-8">
+                        <label for="inputState" class="form-label">Type de livraison</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Livraison basique (4 jours)</option>
+                            <option>Livraison express (24h) +4€</option>
+                        </select>
+                        <button class="mt-2">COMMANDER</button>
+                    </div>
+
+
+                </form>
+
+
+                <h2>Livraison en point relais</h2>
+
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Nom</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Prénom</label>
+                        <input type="text" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Téléphone</label>
+                        <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+                    <div><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.9122249226707!2d1.0704128753549003!3d49.39165236303322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e0dfbf4ddceef1%3A0x73a65228cf4c2fbf!2sAFPA%20-%20Centre%20de%20Rouen%2F%20Saint-%C3%89tienne-du-Rouvray!5e0!3m2!1sfr!2sfr!4v1696005038814!5m2!1sfr!2sfr"
+                            width="400rem" height="400rem" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                    
+            <div class="col-md-8">
+                <label for="inputState" class="form-label">Points relais les plus proches</label>
+                <select id="inputState" class="form-select">
+                    <option selected>E.Leclerc Zac Du Madrillet, Av. de la Mare aux Daims, 76800
+                        Saint-Étienne-du-Rouvray
+                    </option>
+                    <option>6 Rue de la Ferme, 76800 Saint-Étienne-du-Rouvray</option>
+                    <option>1 Av. de Felling, 76800 Saint-Étienne-du-Rouvray</option>
+                    <option>Av. Maryse Bastié, 76800 Saint-Étienne-du-Rouvray
+                    </option>
+                </select>
+                <label for="inputState" class="form-label">Type de livraison</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Livraison basique (4 jours)</option>
+                        <option>Livraison express (24h) +4€</option>
+                    </select>
+                    <button class="mt-2">COMMANDER</button>
+            </div>
+            </div>
+
+
+            </form>
+
+
+
         </div>
+
     </div>
 
-
-    <div class="droite">
-        <div class="paiement">
-            <h1>Méthode de paiement</h1>
-        </div>
-
-
-
-
-        <div class="livriason">
-            <h1>Livraison</h1>
-            <h2>Livraison à domicile</h2>
-
-<form class="row g-3">
-  <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Nom</label>
-    <input type="email" class="form-control" id="inputEmail4">
-  </div>
-  <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Prénom</label>
-    <input type="text" class="form-control" id="inputPassword4">
-  </div>
-  <div class="col-12">
-    <label for="inputAddress" class="form-label">Adresse</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="col-12">
-    <label for="inputAddress2" class="form-label">Adresse</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
-  <div class="col-md-6">
-    <label for="inputCity" class="form-label">Ville</label>
-    <input type="text" class="form-control" id="inputCity">
-  </div>
-  <div class="col-md-8">
-    <label for="inputState" class="form-label">Code Postale</label>
-    <select id="inputState" class="form-select">
-      <option selected>Livraison basique (4 jours)</option>
-      <option>Livraison express (24h)</option>
-    </select>
-  </div>
-  
-  
-</form>
-
-
-            <h2>Livraison en point relais</h2>
-
-
-
-
-
-        </div>
-
     </div>
-
-</div>
 
 
 
