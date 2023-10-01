@@ -12,7 +12,8 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="../Homeless-Shoes/css/style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel="stylesheet" href="../../css/style.css">
     <title>Homeless Shoes</title>
 </head>
 
@@ -21,8 +22,8 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <!-- Logo cliquable qui renvoi sur la page d'acceuil -->
-                <a class="navbar-brand " href="../Homeless-Shoes/index.html"><img id="Logo"
-                        src="assets/logo/Across_the_street.png" alt="LOGO Homeless-Shoes-Store"></a>
+                <a class="navbar-brand " href="#"><img id="Logo"
+                        src="assets\logo\Across_the_street.png" alt="LOGO Homeless-Shoes-Store"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -40,7 +41,7 @@
                                 Homme
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Chaussures de costume</a></li>
+                                <li><a class="dropdown-item" href="../../homme.html">Chaussures de costume</a></li>
                                 <li><a class="dropdown-item" href="#">Sneakers</a></li>
                                 <li><a class="dropdown-item" href="#">Mocassin</a></li>
                                 <li><a class="dropdown-item" href="#">Escarpins</a></li>
@@ -95,6 +96,13 @@
             </div>
         </nav>
     </header>
+    <div class="top">
+        <h3>
+            ! Nos incourtournables !
+        </h3>
+    </div>
+
+
     <!-- Caroussel d'image -->
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
@@ -107,11 +115,11 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img type="button" src="assets/Shoes/homme/Aldo_Hanford_Marron-removebg-preview.png"
-                    class="imageCarousel d-block" alt="Image chaussure Aldo Hanford homme">
+                <a href="../../homme.html"><img type="button" src="assets/Shoes/homme/Aldo_Hanford_Marron-removebg-preview.png"
+                    class="imageCarousel d-block" alt="Image chaussure Aldo Hanford homme"></a>
                 <div class="carousel-caption d-none d-md-block">
                     <h5 type="button">Aldo Hanford Marron</h5>
-                    <p>
+                    <p class="Detailcarousel">
                         Pur Cuir.
                     </p>
                 </div>
@@ -121,7 +129,7 @@
                     class="imageCarousel d-block" alt="Image escarpin Aldo Sereniti femme">
                 <div class="carousel-caption d-none d-md-block">
                     <h5 type="button">Aldo SERENITI beige</h5>
-                    <p>
+                    <p class="Detailcarousel">
                         Pur Cuir.
                     </p>
                 </div>
@@ -146,7 +154,16 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-
+    <div class="PourNous">
+        <span type="button">
+            <img src="assets/img/parent.png" alt="IconEux">
+            <p>Pour Lui</p>
+        </span>
+        <span type="button">
+            <img src="assets/img/parent2.png" alt="IconElles">
+            <p>Pour Elles</p>
+        </span>
+    </div>
     <div class="modelchaussure">
         <span class="colonne">
             <img type="button" src="assets/img/model chaussure femme.jpg" alt="Model Femme">
@@ -164,6 +181,11 @@
             <img type="button" src="assets/img/model chaussure homme.jpg" alt="Model Homme">
             <button type="button">Homme</button>
         </span>
+    </div>
+
+    <div class="CoupsDeCoeur">
+        <p><i class="bi bi-balloon-heart-fill"></i>Découvrez Nos Coups de Coeur<i class="bi bi-balloon-heart-fill"></i>
+        </p>
     </div>
 
     <div class="container">
@@ -187,98 +209,128 @@
         </div>
         <div>
             <div class="content">
-                <img src="assets/Shoes/enfant/Hunter_Kids_First_Classic_Gloss-removebg-preview.png" alt="Bottes de pluie Rouge ">
+                <img src="assets/Shoes/enfant/Hunter_Kids_First_Classic_Gloss-removebg-preview.png"
+                    alt="Bottes de pluie Rouge ">
                 <h2>Lisa Boley</h2>
             </div>
         </div>
     </div>
 
+    <!--Section Article-->
 
+    <div class="ArticlesMix">
+        <span class="MixHomme">
+            <img src="assets/Shoes/homme/André_Pizzo_Noir-removebg-preview.png" alt="Andrè Pizzo">
+            <h1>
+                Andrè Pizzo
+                <br>Noir
+            </h1>
+            <div class="prix">
+                <p class="Faux">79.00€</p>
+                <p>47.40€</p>
+            </div>
+            <button class="ButtonLirePlus" type="button">Lire plus ...</button>
+        </span>
+        <span class="MixHomme">
+            <img src="assets/Shoes/homme/BullBoxer_Marron_379K21-removebg-preview.png" alt="Bullboxer">
+            <h1>
+                BullBoxer
+                <br>Marron
+            </h1>
+            <div>
+                <p class="Faux">99.95€</p>
+                <p>69.97€</p>
+            </div>
+            <button class="ButtonLirePlus" type="button">Lire plus ...</button>
+        </span>
+        <span class="MixHomme">
+            <img src="assets/Shoes/homme/Clarks_Malwood_Lace-removebg-preview.png" alt="Clarks Malwood">
+            <h1>
+                Clarks Malwood
+                <br>Lace Noir
+            </h1>
+            <div>
+                <p class="Faux">89.95€</p>
+                <p>80.96€</p>
+            </div>
+            <button class="ButtonLirePlus" type="button">Lire plus ...</button>
+        </span>
+        <span class="MixFemme">
+            <img src="assets/Shoes/femme/Betty_London_Masette-removebg-preview.png" alt="Bessy London Masette">
+            <h1>
+                Betty Masette
+                <br> Vert
+            </h1>
+            <div>
+                <p class="Faux">89.99€</p>
+                <p>80.99€</p>
+            </div>
+            <button class="ButtonLirePlus" type="button">Lire plus ...</button>
+        </span>
+        <span class="MixFemme">
+            <img src="assets/Shoes/femme/Fericelli_Lavana-removebg-preview.png" alt="Fericelli Lavana">
+            <h1>
+                Fericelli Lavana
+                <br><br>
+            </h1>
+            <div>
+                <p class="Faux">119.99€</p>
+                <p>83.99€</p>
+            </div>
+            <button class="ButtonLirePlus" type="button">Lire plus ...</button>
+        </span>
+        <span class="MixFemme">
+            <img src="assets/Shoes/femme/Aldo_Stessy2.0-removebg-preview.png" alt="Aldo Stessy">
+            <h1>
+                Aldo Stessy 2.0
+                <br> Rose
+            </h1>
+            <div>
+                <p class="Faux">89.99€</p>
+                <p>67.49€</p>
+            </div>
+            <button class="ButtonLirePlus" type="button">Lire plus ...</button>
+        </span>
+        <span class="MixEnfants">
+            <img src="assets/Shoes/enfant/Reima_Taika_2.0-removebg-preview.png" alt="Reima Taika">
+            <h1>
+                Taika 2.0
+                <br>Jaune
+            </h1>
+            <div>
+                <p class="Faux">39.95€</p>
+                <p>29.96€</p>
+            </div>
+            <button class="ButtonLirePlus" type="button">Lire plus ...</button>
+        </span>
+        <span class="MixEnfants">
+            <img src="assets/Shoes/enfant/Hunter_Kids_First_Classic_Gloss-removebg-preview.png" alt="Hunter Kids">
+            <h1>
+                HunterKids
+                <br>Classic Gloss
+            </h1>
+            <div>
+                <p class="Faux">59.99€</p>
+                <p>53.99€</p>
+            </div>
+            <button class="ButtonLirePlus" type="button">Lire plus ...</button>
+        </span>
+        <span class="MixEnfants">
+            <img src="assets/Shoes/enfant/Isotoner_Bottes_de_pluie-removebg-preview.png" alt="Isotoner Botte de Pluie ">
+            <h1> Isotener
+                <br>Botte de Pluie
+            </h1>
+            <div>
+                <p class="Faux">39.95€</p>
+                <p>29.96€</p>
+            </div>
+            <button class="ButtonLirePlus" type="button">Lire plus ...</button>
+        </span>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <!-- Bouton Scroll To Top -->
 
-    <a href="#" class="top"><i class="bi bi-arrow-up-square-fill"></i></a>
+    <a href="#" class="returnTop"><i class="bi bi-arrow-up-square-fill"></i></a>
 
 
     <!-- Footer -->

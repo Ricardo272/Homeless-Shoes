@@ -1,0 +1,84 @@
+body {
+    div {
+        border: solid;
+
+        h1 {
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        p {
+            color: blue;
+        }
+    }
+}
+
+
+
+body {
+    width: 1440px;
+    background-color: #ceb992;
+
+    .BigDiv {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+        width: fit-content;
+        align-items: center;
+        flex-direction: row;
+
+        .PhotosArticles {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+
+            .PhotosColone {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                width: 30%;
+
+                img {
+                    background-color: #471327;
+                    margin: 2rem;
+                    border: inset 0.5rem;
+                    padding: 0.5rem;
+                }
+            }
+
+            .PremierPlan {
+                background-color: #471327;
+                margin: 2rem;
+                border: inset 0.7rem;
+                padding: 0.5rem;
+            }
+        }
+
+        .Article {
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+
+            .Nom {
+                text-transform: uppercase
+            }
+
+            .Prix {
+                color: red;
+
+                .Ancien-Prix {
+                    color: aqua;
+                }
+
+                .Nouveau-Prix {
+                    color: black;
+                }
+            }
+
+            .Detail {
+                color: blue;
+            }
+        }
+    }
+}
