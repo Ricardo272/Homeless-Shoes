@@ -1,17 +1,11 @@
-body div {
-  border: solid;
+@font-face {
+  font-family: ACME;
+  src: url(../assets/police/Acme/Acme-Regular.ttf) format(TrueType);
 }
-body div h1 {
-  text-transform: uppercase;
-  text-align: center;
-}
-body div p {
-  color: blue;
-}
-
 body {
   width: 1440px;
   background-color: #ceb992;
+  font-family: ACME;
 }
 body .BigDiv {
   display: flex;
@@ -19,8 +13,9 @@ body .BigDiv {
   padding: 2rem;
   width: -moz-fit-content;
   width: fit-content;
-  align-items: center;
-  flex-direction: row;
+  border: inset 2rem;
+  border-radius: 3rem;
+  background-color: #73937e;
 }
 body .BigDiv .PhotosArticles {
   display: flex;
@@ -48,21 +43,33 @@ body .BigDiv .PhotosArticles .PremierPlan {
 body .BigDiv .Article {
   display: flex;
   flex-direction: column;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: -moz-max-content;
+  width: max-content;
+  justify-content: flex-start;
 }
 body .BigDiv .Article .Nom {
   text-transform: uppercase;
+  font-size: 48px;
 }
 body .BigDiv .Article .Prix {
   color: red;
 }
 body .BigDiv .Article .Prix .Ancien-Prix {
   color: aqua;
+  font-size: 48px;
+  text-decoration: line-through;
 }
 body .BigDiv .Article .Prix .Nouveau-Prix {
   color: black;
+  font-size: 50px;
 }
 body .BigDiv .Article .Detail {
   color: blue;
+  font-size: 32px;
+}
+body .BigDiv .Article .Saut-de-ligne-inset {
+  border: inset 0.5rem;
+  width: 100%;
+  height: 1rem;
+  background-color: #471327;
 }/*# sourceMappingURL=ClarksMalwoodLaceNoir.css.map */
