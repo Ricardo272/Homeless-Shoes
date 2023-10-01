@@ -22,6 +22,7 @@ body {
         -webkit-text-stroke: medium;
         color: #212529;
     }
+    
 
     // Carousselle D'images
 
@@ -332,6 +333,9 @@ body {
             }
         }
     }
+    #Logo{
+       width: 30%;
+    }
 }
 
 .pagepanier {
@@ -353,18 +357,95 @@ body {
 
 // Bouton Scroll To Top
 
-.top {
+.returnTop {
     position: sticky;
     bottom: 20px;
-    right: 2rem;
+    right: 5rem;
     color: black;
     font-size: 3rem;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    .bi{
+        color: rgba(0,0, 0,0.5);
+        position: relative;
+        left: 50%;
+        
+    }
+    :hover{
+        color: rgba(0,0, 0,0.9);
+    }
 }
 
 
-
 // Code pour le Footer
+
+
+
+// aside
+
+    // Homme
+    .divAsideMen{
+        //juste pour voir la div
+        background-color: white;
+        //
+        position: relative;
+        width: 25%;
+        margin: 5rem;
+        float: left;
+        ul{
+            padding-left: 0;
+        }
+    //
+    .AsideMen {
+        .homme{
+            display: table;
+            margin: 1rem auto;
+            font-size: 2rem;
+        }
+        a { 
+            display: block;
+            text-decoration: none;
+            color: black;
+            width: 100%;
+            padding: 1rem 1.9em ;
+     }
+        li{
+            font-weight: bold;
+            :hover{
+                background-color: #01acba;
+            }
+        }
+     }
+    }
+    
+        /// Cards ///
+        .card{
+            margin: 1rem;
+        
+        }
+    
+    
+        // Femme
+    
+    
+    
+    
+    
+    
+    
+    
+        // Enfant
+    
+    
+    
+    
+    
+
+
 
 
 .Livraison,
@@ -374,7 +455,14 @@ body {
     align-items: center;
     height: 6rem;
 }
-
+ul{
+    list-style-type:none;
+}
+.footerNav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 section {
 
     article {
