@@ -11,10 +11,13 @@ hommme: moccassin
 femme: escarpin
 enfant: botte caoutchouc
 
+//	Abandonée :
+
 pour les chaussures femme :
 
 idée : Pour l'achat d'une paire de chaussure, entrée dans un concours pour gagner une paire de sergio rossi noir d'une valeur de 410€
 
+//
 
 
 Référence des chaussures et leur prix:

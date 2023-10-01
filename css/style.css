@@ -3,9 +3,11 @@
   src: url(../assets/police/Acme/Acme-Regular.ttf) format(TrueType);
 }
 body {
-  width: 1440px;
   background-color: #ceb992;
   font-family: ACME;
+}
+body .form-control {
+  background-color: #ccb486;
 }
 body .top {
   display: flex;
@@ -18,6 +20,9 @@ body h3 {
   font-size: 5rem;
   -webkit-text-stroke: medium;
   color: #212529;
+}
+body header {
+  background-color: #ccb486;
 }
 body header #Logo {
   border-radius: 80%;
@@ -287,6 +292,10 @@ body #Logo {
   width: 30%;
 }
 
+#panier {
+  background-color: #ccb486;
+}
+
 .pagepanier {
   display: flex;
 }
@@ -333,14 +342,16 @@ body #Logo {
 a .bi {
   color: rgba(0, 0, 0, 0.5);
   position: relative;
-  left: 50%;
+  left: 45%;
 }
 a :hover {
   color: rgba(0, 0, 0, 0.9);
 }
 
 .divAsideMen {
-  background-color: white;
+  background-color: #ccb486;
+  border: 0.5px solid gray;
+  border-radius: 2%;
   position: relative;
   width: 25%;
   margin: 5rem;
@@ -365,11 +376,12 @@ a :hover {
   font-weight: bold;
 }
 .divAsideMen .AsideMen li :hover {
-  background-color: #01acba;
+  background-color: #ca7132;
 }
 
 .card {
   margin: 1rem;
+  background-color: #ccb486;
 }
 
 .Livraison,
