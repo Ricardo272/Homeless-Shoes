@@ -330,3 +330,17 @@ section {
         }
     }
 }
+
+body header {
+    background-color: #ccb486;
+}
+
+body header #Logo {
+    border-radius: 80%;
+    width: 9rem;
+    height: 9rem;
+}
+
+body header #Logo form {
+    height: 3.5;
+}
