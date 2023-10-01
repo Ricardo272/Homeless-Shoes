@@ -5,10 +5,12 @@
 }
 
 body {
-    width: 1440px;
     background-color: #ceb992;
     font-family: ACME;
 
+    .form-control{
+        background-color: #ccb486;
+    }
     .top {
         display: flex;
         align-items: center;
@@ -33,6 +35,7 @@ body {
                 height: 3.5;
             }
         }
+        background-color: #ccb486;
     }
     // Carousselle D'images
 
@@ -345,9 +348,12 @@ body {
     }
     #Logo{
        width: 30%;
+       
     }
 }
-
+#panier{
+    background-color: #ccb486;
+}
 .pagepanier {
     display: flex;
 
@@ -403,7 +409,7 @@ a{
     .bi{
         color: rgba(0,0, 0,0.5);
         position: relative;
-        left: 50%;
+        left: 45%;
         
     }
     :hover{
@@ -421,7 +427,9 @@ a{
     // Homme
     .divAsideMen{
         //juste pour voir la div
-        background-color: white;
+        background-color: #ccb486;
+        border: 0.5px solid gray;
+        border-radius: 2%;
         //
         position: relative;
         width: 25%;
@@ -447,7 +455,7 @@ a{
         li{
             font-weight: bold;
             :hover{
-                background-color: #01acba;
+                background-color: #ca7132;
             }
         }
      }
@@ -456,28 +464,8 @@ a{
         /// Cards ///
         .card{
             margin: 1rem;
-        
+            background-color: #ccb486;
         }
-    
-    
-        // Femme
-    
-    
-    
-    
-    
-    
-    
-    
-        // Enfant
-    
-    
-    
-    
-    
-
-
-
 
 .Livraison,
 .Reseaux {
