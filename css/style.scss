@@ -8,9 +8,10 @@ body {
     background-color: #ceb992;
     font-family: ACME;
 
-    .form-control{
+    .form-control {
         background-color: #ccb486;
     }
+
     .top {
         display: flex;
         align-items: center;
@@ -24,19 +25,22 @@ body {
         -webkit-text-stroke: medium;
         color: #212529;
     }
-    
+
 
     header {
         #Logo {
             border-radius: 80%;
             width: 9rem;
             height: 9rem;
-            form{
+
+            form {
                 height: 3.5;
             }
         }
+
         background-color: #ccb486;
     }
+
     // Carousselle D'images
 
     #carouselExampleCaptions {
@@ -346,24 +350,28 @@ body {
             }
         }
     }
-    #Logo{
-       width: 30%;
-       
+
+    #Logo {
+        width: 30%;
+
     }
 }
-#panier{
+
+#panier {
     background-color: #ccb486;
 }
+
 .pagepanier {
     display: flex;
 
     .gauche {
-        
+
         width: 50%;
         float: left;
         border: solid black 2px;
         margin: 0 auto auto auto;
         background-color: #73937e;
+
         .boutonshopping {
             background-color: #73937e;
             color: #fff;
@@ -377,9 +385,9 @@ body {
     .droite {
         float: right;
         margin-left: 2rem;
-width: 50%;
-    
-        button{
+        width: 50%;
+
+        button {
             background-color: #73937e;
             color: #fff;
             border-radius: 25%;
@@ -403,17 +411,19 @@ width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-a{
-    .bi{
-        color: rgba(0,0, 0,0.5);
+
+a {
+    .bi {
+        color: rgba(0, 0, 0, 0.5);
         position: relative;
         left: 45%;
-        
+
     }
-    :hover{
-        color: rgba(0,0, 0,0.9);
+
+    :hover {
+        color: rgba(0, 0, 0, 0.9);
     }
 }
 
@@ -424,48 +434,53 @@ a{
 
 // aside
 
-    // Homme
-    .divAsideMen{
-        //juste pour voir la div
-        background-color: #ccb486;
-        border: 0.5px solid gray;
-        border-radius: 2%;
-        //
-        position: relative;
-        width: 25%;
-        margin: 5rem;
-        float: left;
-        ul{
-            padding-left: 0;
-        }
+// Homme
+.divAsideMen {
+    //juste pour voir la div
+    background-color: #ccb486;
+    border: 0.5px solid gray;
+    border-radius: 2%;
+    //
+    position: relative;
+    width: 25%;
+    margin: 5rem;
+    float: left;
+
+    ul {
+        padding-left: 0;
+    }
+
     //
     .AsideMen {
-        .homme{
+        .homme {
             display: table;
             margin: 1rem auto;
             font-size: 2rem;
         }
-        a { 
+
+        a {
             display: block;
             text-decoration: none;
             color: black;
             width: 100%;
-            padding: 1rem 1.9em ;
-     }
-        li{
+            padding: 1rem 1.9em;
+        }
+
+        li {
             font-weight: bold;
-            :hover{
+
+            :hover {
                 background-color: #ca7132;
             }
         }
-     }
     }
-    
-        /// Cards ///
-        .card{
-            margin: 1rem;
-            background-color: #ccb486;
-        }
+}
+
+/// Cards ///
+.card {
+    margin: 1rem;
+    background-color: #ccb486;
+}
 
 .Livraison,
 .Reseaux {
@@ -474,14 +489,17 @@ a{
     align-items: center;
     height: 6rem;
 }
-ul{
-    list-style-type:none;
+
+ul {
+    list-style-type: none;
 }
-.footerNav{
+
+.footerNav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 section {
 
     article {
@@ -499,4 +517,11 @@ section {
     }
 
 
+}
+
+.divCopywright {
+    display: flex;
+    justify-content: center;
+
+    .copywright {}
 }

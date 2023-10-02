@@ -411,4 +411,9 @@ section article {
 section .Reseaux .fa-brands {
   margin-left: 0.7rem;
   width: 1rem;
+}
+
+.divCopywright {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
